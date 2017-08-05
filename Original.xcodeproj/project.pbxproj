@@ -20,7 +20,6 @@
 		606A8F091F3586360050574F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F081F3586360050574F /* AddViewController.swift */; };
 		606A8F0B1F35865B0050574F /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F0A1F35865B0050574F /* MemoryViewController.swift */; };
 		606A8F0F1F3586960050574F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F0E1F3586960050574F /* ListViewController.swift */; };
-		606A8F111F359C6F0050574F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F101F359C6F0050574F /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		606A8F081F3586360050574F /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		606A8F0A1F35865B0050574F /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		606A8F0E1F3586960050574F /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		606A8F101F359C6F0050574F /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +116,6 @@
 				606A8F0A1F35865B0050574F /* MemoryViewController.swift */,
 				606A8F021F356E290050574F /* FriendViewController.swift */,
 				606A8F041F356E3E0050574F /* OptionViewController.swift */,
-				606A8F101F359C6F0050574F /* GraphViewController.swift */,
 				606A8ED61F3559830050574F /* Main.storyboard */,
 				606A8ED91F3559830050574F /* Assets.xcassets */,
 				606A8EDB1F3559830050574F /* LaunchScreen.storyboard */,
@@ -281,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606A8F111F359C6F0050574F /* GraphViewController.swift in Sources */,
 				606A8F031F356E290050574F /* FriendViewController.swift in Sources */,
 				606A8F051F356E3E0050574F /* OptionViewController.swift in Sources */,
 				606A8F091F3586360050574F /* AddViewController.swift in Sources */,
