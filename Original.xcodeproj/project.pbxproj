@@ -14,6 +14,13 @@
 		606A8EDD1F3559830050574F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A8EDB1F3559830050574F /* LaunchScreen.storyboard */; };
 		606A8EE81F3559830050574F /* OriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8EE71F3559830050574F /* OriginalTests.swift */; };
 		606A8EF31F3559830050574F /* OriginalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8EF21F3559830050574F /* OriginalUITests.swift */; };
+		606A8F011F356E060050574F /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F001F356E060050574F /* BookViewController.swift */; };
+		606A8F031F356E290050574F /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F021F356E290050574F /* FriendViewController.swift */; };
+		606A8F051F356E3E0050574F /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F041F356E3E0050574F /* OptionViewController.swift */; };
+		606A8F091F3586360050574F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F081F3586360050574F /* AddViewController.swift */; };
+		606A8F0B1F35865B0050574F /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F0A1F35865B0050574F /* MemoryViewController.swift */; };
+		606A8F0F1F3586960050574F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F0E1F3586960050574F /* ListViewController.swift */; };
+		606A8F111F359C6F0050574F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A8F101F359C6F0050574F /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		606A8EEE1F3559830050574F /* OriginalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		606A8EF21F3559830050574F /* OriginalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalUITests.swift; sourceTree = "<group>"; };
 		606A8EF41F3559830050574F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606A8F001F356E060050574F /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		606A8F021F356E290050574F /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		606A8F041F356E3E0050574F /* OptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		606A8F081F3586360050574F /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		606A8F0A1F35865B0050574F /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		606A8F0E1F3586960050574F /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		606A8F101F359C6F0050574F /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				606A8ED11F3559830050574F /* Original */,
-				606A8EE61F3559830050574F /* OriginalTests */,
 				606A8EF11F3559830050574F /* OriginalUITests */,
 				606A8ED01F3559830050574F /* Products */,
 			);
@@ -99,10 +112,18 @@
 			children = (
 				606A8ED21F3559830050574F /* AppDelegate.swift */,
 				606A8ED41F3559830050574F /* ViewController.swift */,
+				606A8F001F356E060050574F /* BookViewController.swift */,
+				606A8F081F3586360050574F /* AddViewController.swift */,
+				606A8F0E1F3586960050574F /* ListViewController.swift */,
+				606A8F0A1F35865B0050574F /* MemoryViewController.swift */,
+				606A8F021F356E290050574F /* FriendViewController.swift */,
+				606A8F041F356E3E0050574F /* OptionViewController.swift */,
+				606A8F101F359C6F0050574F /* GraphViewController.swift */,
 				606A8ED61F3559830050574F /* Main.storyboard */,
 				606A8ED91F3559830050574F /* Assets.xcassets */,
 				606A8EDB1F3559830050574F /* LaunchScreen.storyboard */,
 				606A8EDE1F3559830050574F /* Info.plist */,
+				606A8EE61F3559830050574F /* OriginalTests */,
 			);
 			path = Original;
 			sourceTree = "<group>";
@@ -114,7 +135,7 @@
 				606A8EE91F3559830050574F /* Info.plist */,
 			);
 			path = OriginalTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		606A8EF11F3559830050574F /* OriginalUITests */ = {
 			isa = PBXGroup;
@@ -260,7 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606A8F111F359C6F0050574F /* GraphViewController.swift in Sources */,
+				606A8F031F356E290050574F /* FriendViewController.swift in Sources */,
+				606A8F051F356E3E0050574F /* OptionViewController.swift in Sources */,
+				606A8F091F3586360050574F /* AddViewController.swift in Sources */,
+				606A8F011F356E060050574F /* BookViewController.swift in Sources */,
 				606A8ED51F3559830050574F /* ViewController.swift in Sources */,
+				606A8F0F1F3586960050574F /* ListViewController.swift in Sources */,
+				606A8F0B1F35865B0050574F /* MemoryViewController.swift in Sources */,
 				606A8ED31F3559830050574F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +536,7 @@
 				606A8EF91F3559830050574F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		606A8EFA1F3559830050574F /* Build configuration list for PBXNativeTarget "OriginalTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +545,7 @@
 				606A8EFC1F3559830050574F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		606A8EFD1F3559830050574F /* Build configuration list for PBXNativeTarget "OriginalUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +554,7 @@
 				606A8EFF1F3559830050574F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
